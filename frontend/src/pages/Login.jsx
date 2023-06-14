@@ -60,7 +60,6 @@ const Login = () => {
         <Form>
           <Input placeholder="Username" />
           <Input placeholder="Password" />
-
           <Button>LOG IN</Button>
           <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>

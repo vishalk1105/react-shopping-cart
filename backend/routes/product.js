@@ -53,7 +53,7 @@ router.get("/find/:id", async (req, res) => {
 });
 
 //GET ALL USERS
-router.get("/get-products", verifyTokenAndAdmin, async (req, res) => {
+router.get("/get-products", async (req, res) => {
   const qNew = req.query.new;
   const qCategory = req.query.category;
   let products;

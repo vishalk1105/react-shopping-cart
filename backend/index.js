@@ -8,7 +8,9 @@ const productRouter = require("./routes/product");
 const cartRouter = require("./routes/cart");
 const orderRouter = require("./routes/order");
 const stripeRoute = require("./routes/stripe");
+// const cors = require("cors");
 const cors = require("cors");
+app.use(cors());
 
 dotenv.config();
 mongoose
